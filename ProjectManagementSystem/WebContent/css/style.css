@@ -1,0 +1,163 @@
+@charset "ISO-8859-1";
+
+
+table, tr, th, td
+{
+	 border: 2px solid black;
+	
+	 border-collapse: collapse;
+	 
+	 width: 100%;
+	 
+	  margin-left: 70px;
+  margin-right: 40px;
+ 
+	 
+}
+th
+{
+	color: red;
+	background-color: gray;
+}
+
+tr
+{
+	color: #0000a0;
+}
+
+td, th
+{
+	padding: 15px;
+}
+
+tr:hover
+{
+	background: #bcb0ff;
+	color: white;
+}
+
+
+#header
+{
+	background-image: url("img/Header-bg.svg");
+	background-color: #000080;
+	padding: 10px;
+	display: flex;
+}
+
+#h1
+{
+	color: white;
+	padding-left: 20px;
+}
+
+#img
+{
+	padding-left: 520px;
+	margin: 10px;
+}
+
+.log
+{
+	margin-top: 200px;
+}
+
+
+
+#btn
+{
+	background: #9380ff;
+	padding: 6px;
+	width: 100px;
+	border-radius: 10px;
+	border-color: white;
+}
+
+#btn:hover
+{
+	background: #ddddff;
+	color: #008080;
+}
+
+
+.search
+        {
+            width: max-content;
+            display: flex;
+            align-items: center;
+            padding: 14px;
+            border-radius: 28px;
+            background: whitesmoke;
+            width: 600px;
+        }
+        .search-input
+        {
+            font-size: 16px;
+            color: black;
+            margin-left: 14px;
+            outline: none;
+            border: none;
+            background: transparent;
+            flex: 1;
+        }
+
+
+
+.sidebar {
+  height: 100%;
+  width: 50px;
+  position: fixed;
+  top: 140;
+  left: 10;
+  padding-top: 120px;
+ 
+}
+
+.sidebar a {
+	padding-top: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  display: block;
+  padding-left: 10px;
+}
+
+.sidebar a img:hover {
+  text-decoration: underline;
+  color: black;
+  width: 30px;
+  height: 30px;
+}
+
+.sidebar a img:active 
+{
+	text-decoration: underline ;
+ 	color: #0000a0;
+ 	  width: 30px;
+  height: 30px;
+}
+
+
+
+.sidebar .btn img:hover {
+  text-decoration: underline;
+  color: black;
+  width: 30px;
+  height: 30px;
+}
+
+.sidebar .btn img:active 
+{
+	text-decoration: underline ;
+ 	color: #0000a0;
+  width: 30px;
+  height: 30px;
+}
+
+.btn
+{
+	border: none;
+	background: none;
+	text-decoration: none;
+	margin-left: 5px;
+}

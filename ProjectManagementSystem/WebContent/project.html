@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Project</title>
+
+<link href="css/project.css" rel="stylesheet">
+
+</head>
+<body>
+
+		
+		<div class="header">
+			<h1> Create Project </h1>
+			<center>
+			<img class="img" alt="img" src="img/Logo.svg" >
+			</center>
+			</img>	
+		</div>
+		
+		
+		<div class="sidebar">
+		  <a href="home.html"><img src="img/Dashboard.svg"></a> 
+		  
+		  <br>
+		  <form action="ProjectListController" method="post">
+		  
+		  	 <button class="btn"> <img src="img/Project-list.svg"> </button>
+		 
+		  </form>
+		  <br>
+		  
+		  <hr> 
+		  
+		  <a href="project.html"><img src="img/create-project.svg"></a>
+		  
+		  <br>
+		  
+		  <a href="login.html" class="log"><img src="img/Logout.svg"></a>
+	  
+		</div>
+		
+		
+		
+		
+			<div class="container">
+		
+			
+		  <form action="ProjectController" method="post">
+		    <div class="form-group">
+		      <label for="name">Project:</label>
+		      <input type="text" id="name" name="name" class="area" placeholder="Enter project theme" required>
+		    </div>
+		    
+		    <div class="flexbox">
+		    
+			    <div class="form-group">
+			      <label for="reason">Reason:</label>
+			      <input type="text" id="reason" name="reason" class="input" required>
+			    </div>
+			    
+			    <div class="form-group">
+			      <label for="type">Type:</label>
+			      <select id="type" name="type" class="input" required>
+			        <option value="">Select Type</option>
+			        <option value="Issue">Internal</option>
+			        <option value="Request">External</option>
+			        <option value="Request">Vendor</option>
+			      </select>
+			    </div>
+			    
+		    </div>
+		    
+		     <div class="flexbox">
+		   
+			    <div class="form-group">
+			      <label for="division">Division:</label>
+			      <input type="text" id="division" name="division" class="input" required>
+			    </div>
+			    <div class="form-group">
+			      <label for="category">Category:</label>
+			      <input type="text" id="category" name="category" class="input" required>
+			    </div>
+			    
+		    </div>
+		    
+		     <div class="flexbox">
+		   
+			    <div class="form-group">
+			      <label for="priority">Priority:</label>
+			      <select id="priority" name="priority" class="input" required>
+			        <option value="">Select Priority</option>
+			        <option value="High">High</option>
+			        <option value="Medium">Medium</option>
+			        <option value="Low">Low</option>
+			      </select>
+			    </div>
+			    <div class="form-group">
+			      <label for="department">Department:</label>
+			      <input type="text" id="department" name="department" class="input" required>
+			    </div>
+			    
+		     </div>
+		     
+		      <div class="flexbox">
+			    
+				<div class="form-group">
+			      <label for="location">Location:</label>
+			      <input type="text" id="location" name="location" class="input" required>
+			   	 </div>
+			    <div class="form-group">
+			      <label for="priority">Status:</label>
+			      <select id="priority" name="status" class="input" required>
+			        <option value="Registered">Registered</option>
+			        <option value="Running">Running</option>
+			        <option value="Cancelled">Cancelled</option>
+			        <option value="Closed">Closed</option>
+			      </select>
+			    </div>
+			    
+		    </div>
+		    
+		    <div class="flexbox">
+			    
+				<div class="form-group">
+			      <label for="location">Start date:</label>
+			      <input type="date" id="location" name="startdate" class="input" required>
+			   	 </div>
+			    <div class="form-group">
+			      <label for="status">End date:</label>
+			      <input type="date" id="status" name="enddate" class="input" required>
+			    </div>
+			    
+			    
+		    </div>
+		    
+		    
+		    
+		    <div class="form-group ">
+		      <input type="submit" value="Saved Project">
+		    </div>
+		  </form>
+		</div>
+
+	
+
+</body>
+</html>
